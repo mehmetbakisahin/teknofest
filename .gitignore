@@ -1,0 +1,75 @@
+# Python bytecode ve cache dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C-extensions
+*.so
+
+# Paketleme ve dağıtım dosyaları
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller oluşturulan dosyalar
+*.manifest
+*.spec
+
+# Pip log dosyaları
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test ve coverage raporları
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook check point dosyaları
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Sanal ortamlar
+venv/
+ENV/
+env/
+.env/
+.venv/
+
+# IDE ve editör ayarları
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Log dosyaları
+logs/
+*.log
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db

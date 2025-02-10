@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../train/images
+
+nc: 1
+names:
+  - car
+
+roboflow:
+  workspace: baki-p5znr
+  project: my-first-project-gpjqa
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/baki-p5znr/my-first-project-gpjqa/dataset/1
